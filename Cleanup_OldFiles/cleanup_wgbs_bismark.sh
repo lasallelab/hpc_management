@@ -68,8 +68,11 @@ INTERMEDIATE_PATTERNS=(
   "*_splitting_report.txt"
   "*.deduplicated.bam"
   "*.deduplicated.sorted.bam*"
-  "*.deduplicated.bedGraph.gz"
+  # "*.deduplicated.bedGraph.gz"
   "*_bismark_bt2_pe.bam"
+  "*.bam*"
+  
+  
 
 )
 
@@ -79,6 +82,7 @@ MOVE_PATTERNS=(
   "*.CpG_report.merged_CpG_evidence.cov.gz"
   "*.CpG_report.txt.gz"
   "*.cytosine_context_summary.txt"
+  "*.deduplicated.bedGraph.gz"
 )
 
 # ---------- init CSV ---------------------------------------------------------
